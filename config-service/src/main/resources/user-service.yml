@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:tcp://localhost/~/msa
+    url: jdbc:h2:mem:msa
     username: '{cipher}5161f69c8f84c5f4e79caf5e38b751eddee688efeec9c561811fa7b109cb3bd5'
     password:
 token:
